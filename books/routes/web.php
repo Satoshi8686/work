@@ -18,50 +18,27 @@ Route::get('/', function () {
 });
 
 
-Route::get('/fav', function () {
-    return view('favorite_post_list');
-});
+Route::get('/fav', 'App\Http\Controllers\Favorite_post_listController@index');
 
-Route::get('/follow', function () {
-    return view('follow');
-});
+Route::get('/follow', 'App\Http\Controllers\FollowController@index');
 
-Route::get('/follower', function () {
-    return view('follower');
-});
+Route::get('/follower', 'App\Http\Controllers\FollowerController@index');
 
-Route::get('/inq', function () {
-    return view('inquiry');
-});
+Route::get('/inq', 'App\Http\Controllers\InquiryController@index');
 
-Route::get('/log', function () {
-    return view('log_in');
-});
+Route::get('/log', 'App\Http\Controllers\Log_inController@index');
 
-Route::get('/his', function () {
-    return view('post_his');
-});
+Route::get('/his', 'App\Http\Controllers\Post_hisController@index');
 
-Route::get('/post', function () {
-    return view('post');
-});
+Route::get('/post', 'App\Http\Controllers\PostController@index');
 
-Route::get('/pro', function () {
-    return view('profile');
-});
+Route::get('/pro', 'App\Http\Controllers\ProfileController@index');
 
-Route::get('/ser', function () {
-    return view('search');
-});
+Route::get('/ser', 'App\Http\Controllers\SearchController@index');
 
-Route::get('/ser_2', function () {
-    return view('search_2');
-});
+Route::get('/ser_2', 'App\Http\Controllers\Search_2Controller@index');
 
-Route::get('/top', function () {
-    return view('top');
-});
+Route::get('/top', 'App\Http\Controllers\TopController@index');
 
-Route::get('/user', function () {
-    return view('user');
-});
+
+Route::get('/user', 'App\Http\Controllers\UserController@index');
