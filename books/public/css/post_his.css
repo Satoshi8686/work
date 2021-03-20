@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+h1 {
+  background: #eaecee;
+  box-shadow: 0px 0px 0px 0px #131212;
+  border: dashed 0.5px #181717;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.example {
+  position: relative;
+  width: 500px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.example img {
+  
+  width: 360px;
+  height: 120px;
+  display: flex;
+  }
+
+
+.example p  {
+  position: absolute;
+  color: rgb(239, 245, 239);
+  
+  font-size: 2em;
+  top: 90px;
+  left: 120px;
+  margin: 0;
+  padding: 0;
+  
+}
+

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+input,
+label {
+  margin: .4rem 400px;
+}
+
+
+.line2 { 
+  text-decoration: underline double black; 
+  font-size: 30px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, 
+  
+}
+
+
+
+
+

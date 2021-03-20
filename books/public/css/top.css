@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+h1 {
+  background: #eaecee;
+  box-shadow: 0px 0px 0px 5px #4b1905;
+  border: dashed 0.5px #181717;
+  padding: 0.2em 0.5em;
+  color: #454545;
+
+}
+
+#header_tel span.number {
+	float: right;
+	font-size: 20px;
+	margin: -8px  10px 0;
+}
+
+h2 {
+  background: #410202;
+
+	color: #410202;
+}
+
+img.example1 {
+	width: 100%;
+	height: auto;
+	}
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	margin: 0px;
+	padding: 0px;
+	color: rgb(243, 238, 237);	/*全体の文字色*/
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;	
+	line-height: 2;	
+	background: rgb(10, 10, 10) url(../images/bg_s.jpg) repeat center;	/*背景色と壁紙（古いブラウザ、主にIE8以下用）*/
+	background:rgb(3, 3, 3) url(../images/bg.jpg) repeat center/100px;	/*背景色と壁紙*/
+	-webkit-text-size-adjust: none;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;}
+ul {list-style-type: none;}
+img {border: none;max-width: 100%;height: auto;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+iframe {width: 100%;}
+
+
+/*メニュー１個あたりの設定*/
+#menubar li,
+#menubar-s li {
+	float: left;	/*左に回り込み*/
+	width: 32%;	/*メニュー幅*/
+	margin-left: 1%;	/*メニュー間の余白*/
+	background: #150f05;	/*背景色（古いブラウザ用）*/
+	background: -webkit-linear-gradient(#32230c, #150f05);	/*グラデーション*/
+	background: linear-gradient(#32230c, #150f05);			/*同上*/
+	-webkit-transition: 0.5s;	/*マウスオン時の移り変わるまでの時間設定。0.5秒。*/
+	transition: 0.5s;			/*同上*/
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menubar li:first-child {
+	margin: 0px;
+}
+#menubar a,
+#menubar-s a {
+	display: block;
+	text-decoration: none;
+	color: #fff;	
+	font-size: 40px;	
+	
+	padding: auto;		/*上、右、下、左にとるボックス内の余白*/
+	letter-spacing: 0.1em;	
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cb{
+  /* floatを解除 */
+	clear: both;
+	margin-bottom: 100px;
+}
+
+
+figure {
+  float: left;
+	width: 90px;
+  height: 90px;
+  background-color: rgb(241, 12, 12);
+  margin: 10px;
+	font-size: 17px;
+	margin-top: 100px;
+}
+
+
+
+
+img.example2 {
+	width: 90%;
+	height: 400px;
+	}
+
+	hr {
+		border-width: 1px 0px 0px 0px; /* 太さ */
+		border-style: solid; /* 線種 */
+		border-color: rgb(237, 232, 232);   /* 線色 */
+ }
+ 
+ 
+
+.col3 {
+  display: flex;
+}
+
+.col3 li {
+	width: calc(100% / 3);
+	height: 40px;
+}
+
+ul,
+li {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+li {
+  background: rgb(12, 12, 12);
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid rgb(12, 12, 12);
+}
+
