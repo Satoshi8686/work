@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/profile.css">
-  <title>Document</title>
+  <title>Profile</title>
 </head>
 <body>
 <h1>プロフィール</h1> 
@@ -35,8 +35,8 @@
 </form>
 
 
-<a href="" class="btn">完了</a>
-<a href="" class="btn">キャンセル</a>
+<a href="user" class="btn">完了</a>
+<a href="user" class="btn">キャンセル</a>
 
 <?php
 foreach($items as $item) {

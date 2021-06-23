@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/search_2.css">
-  <title>Document</title>
+  <title>Search_2</title>
 </head>
 <body>
 <h1>検索一覧</h1> 
@@ -113,8 +113,8 @@
 	</div>
 </article>
 
-<a href="" class="btn">ジャンル別に戻る</a>
-<a href="" class="btn">トップページに戻る</a>
+<a href="sea" class="btn">ジャンル別に戻る</a>
+<a href="top" class="btn">トップページに戻る</a>
 
 <?php
 

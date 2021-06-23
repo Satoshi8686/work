@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/log_in.css">
   
-  <title>Document</title>
+  <title>Log_in</title>
 </head>
 <body>
 <h1>ログイン</h1>

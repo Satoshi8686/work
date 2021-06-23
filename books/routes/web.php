@@ -49,3 +49,7 @@ Route::get('/sea', 'App\Http\Controllers\SearchController@index');
 Route::get('/top', 'App\Http\Controllers\TopController@index');
 
 Route::get('/user', 'App\Http\Controllers\UserController@index');
+
+Route::get('posts/list','Favorite_post_listController@select');
+
+Route::get('/log','App\Http\Controllers\Log_inController@index');

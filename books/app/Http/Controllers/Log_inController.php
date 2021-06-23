@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
 
 //use App\Models\User;
@@ -9,7 +9,9 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
-class LoginController extends Controller
+use App\Models\Log_in;
+
+class Log_inController extends Controller
 {
     use AuthenticatesUsers;
 

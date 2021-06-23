@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/search.css">
-  <title>Document</title>
+  <title>Search</title>
 </head>
 <body>
 <h1>検索</h1> 
@@ -45,7 +45,7 @@
 
 </div>
 
-<a href="" class="btn">トップページに戻る</a>
+<a href="top" class="btn">トップページに戻る</a>
 
 <?php
 foreach($items as $item) {

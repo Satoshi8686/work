@@ -27,7 +27,15 @@ label {
   
 }
 
-
+.btn {
+  color: #fff;
+	background-color: #1619d8;
+  border: 15px solid #0d0dee; 
+  display: inline-block;
+  margin: 0 -1px;
+  padding: 10px;
+  margin-top: 200px;
+}
 
 
 

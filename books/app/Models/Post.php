@@ -25,5 +25,11 @@ class Post extends Model
     {
         return ucfirst($value);
     }
+   
+    public function getU＿idAttribute($value)
+    {
+        return ucfirst($value);
+    }
 
+    
 }

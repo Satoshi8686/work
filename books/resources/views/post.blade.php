@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/post.css">
-  <title>Document</title>
+  <title>Post</title>
 </head>
 <body>
  <h1>投稿</h1>
@@ -37,8 +37,8 @@
   
 
   
-  <a href="" class="btn">確認画面へ</a>
-<a href="" class="btn">トップページへ戻る</a>
+  <a href="user" class="btn">確認画面へ</a>
+<a href="top" class="btn">トップページへ戻る</a>
 
 <?php
 foreach($items as $item) {

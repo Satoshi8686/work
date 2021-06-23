@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/user.css">
   <script src="public/js/jquery-3.5.1.min .js"></script>
-  <title>Document</title>
+  <title>User</title>
 </head>
 <body>
 <h1>ユーザーページ</h1>  
@@ -21,11 +21,13 @@
 
 
 
-<p class="line2">プロフィール</p>
-<p class="line2">お気に入り投稿リスト</p>
-<p class="line2">フォローリスト</p>
-<p class="line2">フォロワーリスト</p>
-<p class="line2">投稿履歴</p>
+<p class="line2"><a href="pro">プロフィール</a></p>
+<p class="line2"><a href="fav">お気に入り投稿リスト</a></p>
+<p class="line2"><a href="follow">フォローリスト</a></p>
+<p class="line2"><a href="follower">フォロワーリスト</a></p>
+<p class="line2"><a href="his">投稿履歴</a></p>
+
+<a href="top" class="btn">トップページに戻る</a>
 
 <?php
 foreach($items as $item) {

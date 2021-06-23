@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/top.css">
-  <title>Document</title>
+  <title>Top</title>
 </head>
 <body>
 <h1>カワウソ文庫
@@ -20,15 +20,15 @@
 	
 	
 <ul id="menubar">
-<li class="template"><a href="base_temp.html"><span class="title"></span><span class="sub-title"></span>
+<li class="template"><a href="sea"><span class="title"></span><span class="sub-title"></span>
 検索<br></a>
 </li>
 
-<li class="cms"><a href="base_cms.html"><span class="title"></span><span class="sub-title"></span>
+<li class="cms"><a href="post"><span class="title"></span><span class="sub-title"></span>
 投稿</a>
 </li>
 
-<li class="others"><a href="file/base_others.html"><span class="title"></span>
+<li class="others"><a href="user"><span class="title"></span>
 ﾕｰｻﾞｰ</a>
 </li>
 </ul>

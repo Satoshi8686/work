@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/follow.css">
-  <title>Document</title>
+  <title>Follow</title>
 </head>
 <body>
 <h1>フォロー</h1> 
@@ -43,8 +43,9 @@
   <p class="line2">satoshi_tsuzaki</p>
   
 
-  <a href="" class="btn">ユーザーページに戻る</a>
-<a href="" class="btn">トップページに戻る</a>
+  <a href="user" class="btn">ユーザーページに戻る</a>
+  
+<a href="top" class="btn">トップページに戻る</a>
 
 <?php
 /*foreach($items as $item) {
