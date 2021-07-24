@@ -39,10 +39,10 @@
 <a href="user" class="btn">キャンセル</a>
 
 <?php
-foreach($items as $item) {
+/*foreach($items as $item) {
     echo "OK";
     var_dump($item);
-}
+}*/
 ?>
 
 </body>

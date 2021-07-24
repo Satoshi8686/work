@@ -30,10 +30,10 @@
 <a href="top" class="btn">トップページに戻る</a>
 
 <?php
-foreach($items as $item) {
+/*foreach($items as $item) {
     echo "OK";
     var_dump($item);
-}
+}*/
 ?>
 
 </body>
